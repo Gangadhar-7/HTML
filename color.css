@@ -1,0 +1,28 @@
+html{
+    font-size: 22px;
+}
+body{
+    color: rgb(15, 15, 15);
+    background-color: rgb(50, 47, 46);
+    font: optional; color: azure;
+}
+
+a{
+    color:lawngreen;
+}
+a:visited{
+    color: rgb(45, 192, 84);
+
+}
+
+a:hover , a:active{
+    color:darksgreen;
+}
+pre{
+    font-size:xx-large;
+}
+hr{
+    color: black;
+    background-color: rgb(225, 80, 8);
+    
+}
