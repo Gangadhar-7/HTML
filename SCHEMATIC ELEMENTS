@@ -1,0 +1,28 @@
+Some semantic elements
+Element	Represents
+h1, h2, h3, h4, h5, h6	-----The heading for its section.
+address	                -----Contact information for its nearest article or body element ancestor.
+p	                      -----A paragraph.
+blockquote	            -----A section that is quoted from another source.
+ol	                    -----A list of items, where the items have been intentionally ordered, such that changing the order would change the meaning of the document.
+ul	                    -----A list of items, where the order of the items is not important — that is, where changing the order would not materially change the meaning of the document.
+dl	                    -----An association list consisting of zero or more name-value groups (a description list).
+q	                      -----Some phrasing content quoted from another source.
+cite	                  -----The title of a work (e.g. a book, a paper, an essay, a poem, a score, a song, a script, a film, a TV show, a game, a sculpture, a painting, a theatre production, a play, an opera, a musical, an exhibition, etc). This can be a work that is being quoted or referenced in detail (i.e. a citation), or it can just be a work that is mentioned in passing.
+em	                    -----Stress emphasis of its contents.
+strong	                -----Strong importance for its contents.
+small	                  -----Small print or other side comments.
+mark	                  -----A run of text in one document marked or highlighted for reference purposes, due to its relevance in another context. When used in a quotation or other block of text referred to from the prose, it indicates a highlight that was not originally present but which has been added to bring the reader's attention to a part of the text that might not have been considered important by the original author when the block was originally written, but which is now under previously unexpected scrutiny. When used in the main prose of a document, it indicates a part of the document that has been highlighted due to its likely relevance to the user's current activity.
+dfn	                    -----The defining instance of a term.
+abbr	                  -----An abbreviation or acronym, optionally with its expansion.
+time	                  -----A precise date and/or a time in the proleptic Gregorian calendar.
+code	                  -----A fragment of computer code. This could be an XML element name, a filename, a computer program, or any other string that a computer would recognize.
+var	                    -----A variable. This could be an actual variable in a mathematical expression or programming context, or it could just be a term used as a placeholder in prose.
+samp	                  -----(Sample) output from a program or computing system.
+kbd	                    -----User input (typically keyboard input, although it may also be used to represent other input, such as voice commands).
+sup	                    -----A superscript.
+sub	                    -----A subscript.
+i	                      -----A span of text in an alternate voice or mood, or otherwise offset from the normal prose, such as a taxonomic designation, a technical term, an idiomatic phrase from another language, a thought, a ship name, or some other prose whose typical typographic presentation is italicized.
+b	                      -----A span of text to be stylistically offset from the normal prose without conveying any extra importance, such as key words in a document abstract, product names in a review, or other spans of text whose typical typographic presentation is boldened.
+ins	                    -----An addition to the document.
+del	                    -----A removal from the document.
