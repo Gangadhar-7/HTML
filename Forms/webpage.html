@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="profile.css" type="text/css">
+
+</head>
+<body>
+    <h1 align="center">Enter your personal info</h1>
+    <hr>
+    <fieldset>
+        <legend>Personal Info</legend>
+        <form >
+            <p>
+                <label for="firstname"> FirstName:-</label>
+                <input type="text" name="FirstName" id="FirstName" placeholder="Gangadhar" autocomplete="on" required autofocus>
+            </p>
+            <p>
+                <label for="LastName:-">LastName:-</label>
+                <input type="text" name="LastName:-" id="LastName:-" placeholder="Matta" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="DateOfBirth">DateOfBirth:-</label>
+                <input type="datetime" name="DateOfBirth" id="DateOfBirth" placeholder="00-00-0000" pattern="[0-9]{2}[0-9]{2}[0-9]{4}" required>
+            </p>
+            <p>
+                <label for="college">college:-</label>
+                <select name="college" id="college">
+                    <option value="Aditya college of engineering">Aditya college of engineering</option>
+                    <option value="Aditya college of engineering and technology">Aditya college of engineering and technology</option>
+                    <option value="Aditya engineering college">Aditya engineering college </option>
+                    <option value="pragathi college of engineering">pragathi college of engineering</option>
+                    <option value="JNTUK engineering">JNTUK engineering</option>
+                </select>
+
+            </p>
+            <P>
+                <label for="Passout Year"> Year of Completion</label>
+                <input type="number" name="Year of Completion" id="Year of Completion" min="2015" max="2025" step="1" value="2015">
+            </P>
+            <p>
+                <label for="Course">Course:-</label>
+                <input type="text" name="cloudTechnology" id="cloudTechnology" list="cloud_list" placeholder="select one" >
+                <datalist id="cloud_list">
+                    <option value="Amazon Web Service">
+                    <option value="Microsoft Azure">
+                    <option value="Google Cloud">
+                    <option value="IBM">
+                    <option value="Oracle">
+                </datalist>
+                
+                
+                <input type="text" name="Languages" id="Languages" list="langlist" placeholder="select one">
+                <datalist id="langlist">
+                
+                    <option value="PYTHON">
+                    <option value="C++">
+                    <option value="JAVA">
+                </datalist>
+                    
+                   
+            
+
+                
+            </p>
+            <p>
+                <label for="paymenttype">Payment Type:-</label>
+                <input type="text" name="Payment Type" id="Payment Type" list="payment-list" placeholder="cash" required>
+                <datalist id="payment-list">
+
+                    <option value="PayTM">
+                    <option value="PhonePay">
+                    <option value="Gpay">
+                    <option value="slice">
+                    <option value="cash">
+                </datalist>
+            </p>
+
+
+            
+
+
+
+        </form> 
+    </fieldset>
+
+    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.uplers.com%2Fblog%2Ftop-skills-of-frontend-developers%2F&psig=AOvVaw3l3HVU2DGFZgC0KCss5Jqq&ust=1690791807377000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNio6bmAtoADFQAAAAAdAAAAABAE" ><strong>CLICK HERE </strong> to checkout about Frontend </a>
+    
+</body>
+</html>
