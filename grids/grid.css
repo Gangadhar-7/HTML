@@ -1,0 +1,54 @@
+
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.main{
+
+    font-size: 30px;
+    display: flex;
+    color: aliceblue;
+    background-color: rgb(126, 125, 125);
+    width: 80%;
+    height: 80%;
+    border: 2px solid black;
+    margin: 0 auto;
+
+}
+
+.new{
+    display: grid;
+    background-color: rgb(232, 102, 21);
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgb(69, 22, 4);
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 3px 3px 6px bisque;
+}
+
+.main{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    /* align-items: flex-end; */
+    height:1000px;
+    width: 80%;
+    flex-wrap: wrap;
+    align-content: first baseline;
+    /* align-content: center; */
+    row-gap: 1em;
+
+
+}
+
+.grid5{
+    /* align-self: flex-end; */
+    /* order: -1; */
+    box-shadow: 3px 3px 6px bisque;
+}
