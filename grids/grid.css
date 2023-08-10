@@ -1,12 +1,12 @@
 
-*::before,
+/* *::before,
 *::after{
     box-sizing: border-box;
-}
+} */
 .main{
 
     font-size: 30px;
-    display: flex;
+    /*display: flex; */
     color: aliceblue;
     background-color: rgb(126, 125, 125);
     width: 80%;
